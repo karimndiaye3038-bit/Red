@@ -4,7 +4,7 @@ const closeBtn = document.getElementById("closeModal");
 
 openBtn.addEventListener("click", () => {
   modal.classList.remove("hidden");
-  modal.classList.add("flex");
+  modal.classList.add();
 });
 
 closeBtn.addEventListener("click", () => {
