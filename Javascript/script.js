@@ -7,6 +7,7 @@ openBtn.addEventListener("click", () => {
   modal.classList.add("flex");
   
 });
+// Ouvrire si on clique 
 
 closeBtn.addEventListener("click", () => {
   modal.classList.add("hidden");
